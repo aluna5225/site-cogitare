@@ -19,7 +19,7 @@ Supabase é uma plataforma de Backend como Serviço (BaaS) de código aberto que
 ## supabase/supabase.js
 
 É a biblioteca JavaScript oficial para interagir com o serviço Supabase, uma plataforma de desenvolvimento open-source que oferece funcionalidades de backend como banco de dados (PostgreSQL), autenticação de usuários, APIs instantâneas, armazenamento, e outros recursos para criar aplicações web e móveis. Ela permite que desenvolvedores acessem e manipulem dados e serviços de um projeto Supabase diretamente do seu código JavaScript, usando uma abordagem que é familiar aos desenvolvedores de aplicações modernas. 
-### Ela de permite:
+### Ela te permite:
 * Gerenciar dados
 * Autenticar usuarios
 * Realizar operações em tempo real
