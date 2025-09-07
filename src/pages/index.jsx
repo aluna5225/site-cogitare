@@ -24,6 +24,9 @@ function Home() {
               <p>A <strong>Cogitare</strong> nasceu para auxiliar aos alunos sem condições financeiras para pagar um cursinho para o vestibular e precisam de 
               um meio de estudo voltado ao apredizado focado do aluno, auxiliando sua ascensão no mundo acadêmico</p>
 
+              <h1>Quer baixar o nosso app?</h1>
+              <p>Faça seu cadastro e baixa direto deste site!</p>
+              
           </div>
       </main>
       <footer>

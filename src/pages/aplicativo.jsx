@@ -15,6 +15,7 @@ function Aplicativo() {
         <>
             <main>
                 <h1>Olá! Você está logado!</h1>
+                <h2>baixe agora nosso app e comece seu apredizado conosco.</h2>
                 <a href={app}>Click para fazer download do App</a>
                 <br /><br /><br />
                 <button onClick={signOut}>LogOut</button>
