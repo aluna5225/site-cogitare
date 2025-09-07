@@ -1,15 +1,5 @@
 # Site-cogitare
 
-The documentation is divided into several sections:
+## React
 
-* [Quick Start](https://react.dev/learn)
-* [Tutorial](https://react.dev/learn/tutorial-tic-tac-toe)
-* [Thinking in React](https://react.dev/learn/thinking-in-react)
-* [Installation](https://react.dev/learn/installation)
-* [Describing the UI](https://react.dev/learn/describing-the-ui)
-* [Adding Interactivity](https://react.dev/learn/adding-interactivity)
-* [Managing State](https://react.dev/learn/managing-state)
-* [Advanced Guides](https://react.dev/learn/escape-hatches)
-* [API Reference](https://react.dev/reference/react)
-* [Where to Get Support](https://react.dev/community)
-* [Contributing Guide](https://legacy.reactjs.org/docs/how-to-contribute.html)
+React é uma biblioteca JavaScript criada pelo Facebook (Meta) para a construção de interfaces de usuário (UIs) interativas e dinâmicas, especialmente para aplicativos web de página única e aplicativos móveis com o React Native. Ela facilita o desenvolvimento de aplicações web ao permitir a criação de componentes reutilizáveis e atualizações eficientes da página através da manipulação do Virtual DOM, o que resulta em melhor desempenho e uma experiência de usuário mais fluida. 
