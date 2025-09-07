@@ -1,0 +1,167 @@
+/* Reset básico */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* ocupa o espaço e empurra o rodapé para baixo */
+}
+
+/* Cabeçalho / Menu */
+header {
+    background-color:#56009a;
+    color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+nav img {
+    height: 90px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: 500px;
+    background: url("img/banner.png") center/cover no-repeat;
+}
+
+/* Pág sobre */
+.sobre-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap; /* garante que em telas pequenas a imagem fique em cima e o texto embaixo */
+}
+
+.sobre-container img {
+    width: 300px;
+    border-radius: 10px;
+    flex-shrink: 0; /* não deixa a imagem deformar */
+}
+
+.sobre-texto {
+    flex: 1;
+    min-width: 250px;
+}
+/* Conteúdo */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Rodapé */
+footer {
+    background-color: #56009a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+/* parte do login e cadastro */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 35px;
+  background: rgb(216, 216, 216);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:#56009a;
+}
+
+.form-container label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.form-container input:focus {
+  border-color: #56009a;
+  outline: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 12px;
+  background: #56009a;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-container button:hover {
+  background: #56009a;
+}
+
+/* Links abaixo do formulário */
+.form-container p {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #333;
+}
+
+.form-container p a {
+  color: #56009a;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.form-container p a:hover {
+  color: #56009a;
+  text-decoration: underline;
+}
