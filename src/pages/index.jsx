@@ -4,8 +4,8 @@ function Home() {
   return (
     <>
       <main>
-          <section className="banner">
-            <img src={banner} height={500} alt="banner" />
+          <section className="BANNER">
+            <img src={banner} height={856.1} alt="banner" />
           </section>
 
           <div className="container">

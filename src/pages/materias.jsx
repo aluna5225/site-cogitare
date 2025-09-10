@@ -2,7 +2,7 @@ function Materias() {
   return (
     <>
         <main>
-            <div className="container">
+            <div className="container_texto">
                 <h1>Conteúdos</h1>
 
                     <h2>Matemática</h2>
